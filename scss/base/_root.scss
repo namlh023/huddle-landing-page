@@ -1,0 +1,55 @@
+:root {
+  --ff-heading: "Poppins", sans-serif;
+  --ff-text: "Open Sans", sans-serif;
+
+  --clr-violet: hsl(257, 40%, 49%);
+  --clr-magenta: hsl(300, 69%, 71%);
+
+  --fs-heading: 1.5rem;
+  --lh-heading: 1.5em;
+
+  --fs-text: 1rem;
+  --lh-text: 1.5em;
+
+  --fs-button: 0.75rem;
+  --lh-button: 1.5em;
+
+  --fw-600: 600;
+  --fw-400: 400;
+
+  --space-xxs: 0.75rem;
+  --space-xs: 1rem;
+  --space-sm: 1.5rem;
+  --space-md: 2.25rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+  --space-sl: 3rem;
+
+  --container-max-width: 18.5rem;
+
+  --logo-width: 7.5rem;
+  --logo-height: 1.1875rem;
+
+  --image-width: 18.5rem;
+  --image-height: 13.0625rem;
+
+  --icon-width: 2rem;
+
+  @media (min-width: 90em) {
+    --fs-heading: 2.5rem;
+    --fs-button: 1.125rem;
+    --fs-text: 1.125rem;
+
+    --space-md: 5em;
+    --space-xs: 1.5rem;
+    --space-sl: 6rem;
+
+    --logo-width: 12.5rem;
+    --logo-height: 2rem;
+
+    --icon-width: 2.2rem;
+
+    --image-width: 43.5rem;
+    --image-height: 30.8125rem;
+  }
+}
